@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <title>My Link Tree</title>
+  </head>
+  <body>
+    <div class="bg-img">
+      <div class="container">
+        <div class="head__section">
+          <img src="img/profilePic.jpg" alt="" />
+          <p>Hi, im trying to be a fullstack developer✋🏻💻</p>
+        </div>
+        <div class="social__links">
+          <ul id="item">
+            <li class="facebook">
+              <a href="https://www.facebook.com/lazaro.l.estrada/">
+                <i class="fa fa-facebook"></i>
+                <span>
+                  <h2>Facebook💻</h2>
+                  <p>@Lazaro Estrada</p>
+                  <p>I share memes and other things. Add me.</p>
+                </span>
+              </a>
+            </li>
+            <li class="instagram">
+              <a href="https://www.instagram.com/24.fer_/">
+                <i class="fa fa-instagram"></i>
+                <span>
+                  <h2>Instagram📸</h2>
+                  <p>@24.fer</p>
+                  <p>Follow me on mi Instagram account.</p>
+                </span>
+              </a>
+            </li>
+            <li class="twitter">
+              <a href="https://twitter.com/LazaroSwish">
+                <i class="fa fa-twitter"></i>
+                <span>
+                  <h2>Twitter🕊</h2>
+                  <p>@The Saint Laurent Don🎩</p>
+                  <p>Follow me on my Twitter account.</p>
+                </span>
+              </a>
+            </li>
+            <li class="threads">
+              <a href="https://www.threads.net/@24.fer_">
+                <i class="fa fa-telegram"></i>
+                <span>
+                  <h2>Threads🤠</h2>
+                  <p>@24.fer 🗣</p>
+                  <p>Follow me on my Threads by instagram, account.</p>
+                </span>
+              </a>
+            </li>
+            <li class="github">
+              <a href="https://github.com/FerchoChainz">
+                <i class="fa fa-github"></i>
+                <span>
+                  <h2>GitHub⌨</h2>
+                  <p>@FerchoChainz</p>
+                  <p>Checkout my repositories, and watch my process.</p>
+                </span>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <script>
+      VanillaTilt.init(document.querySelectorAll(".social__links ul li"), {
+        max: 10,
+        speed: 800,
+        glare: true,
+        "max-glare": 1,
+      });
+    </script>
+  </body>
+</html>
